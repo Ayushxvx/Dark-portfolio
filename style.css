@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(16, 16, 44);
+}
+nav,#aboutme{
+    color:aqua;
+}
+@media only screen and (max-width: 575px) {
+    #name,#ib{
+        font-size:2em;
+    }
+    #myimg{
+        width:70vw;
+        height:90vw;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #name,#ib{
+        font-size:2em;
+    }
+    #myimg{
+        width:50vw;
+    }
+  }
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    #name,#ib{
+        font-size:3em;
+    }
+    #myimg{
+        width:40vw;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
+    #name,#ib{
+        font-size:4em;
+    }
+    #myimg{
+        width:35vw;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    #name,#ib{
+        font-size:5em;
+    }
+    #myimg{
+        width:35vw;
+        height:50%vw;
+    }
+  }
+
+#skills,#projects,#aboutme{
+    background-color: rgb(74, 74, 111);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
